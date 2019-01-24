@@ -9,6 +9,7 @@ import {ProfileLoginComponent} from './profilelogin.component';
     `
     <h1>Wikiweb</h1>
     <div>
+    <animalbox></animalbox>
     <profilelogin></profilelogin>
     </div>
     `,

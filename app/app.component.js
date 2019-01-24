@@ -33,7 +33,7 @@ System.register(['angular2/core', './courses.component', './animalbox.component'
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h1>Wikiweb</h1>\n    <div>\n    <profilelogin></profilelogin>\n    </div>\n    ",
+                        template: "\n    <h1>Wikiweb</h1>\n    <div>\n    <animalbox></animalbox>\n    <profilelogin></profilelogin>\n    </div>\n    ",
                         directives: [courses_component_1.CoursesComponent, animalbox_component_1.AnimalboxComponent, profilelogin_component_1.ProfileLoginComponent]
                     }), 
                     __metadata('design:paramtypes', [])
