@@ -1,4 +1,4 @@
-System.register(['angular2/core', './courses.component', './animalbox.component', './profilelogin.component'], function(exports_1, context_1) {
+System.register(['angular2/core', './courses.component', './animalbox.component', './profilelogin.component', './header.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', './courses.component', './animalbox.component'
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, courses_component_1, animalbox_component_1, profilelogin_component_1;
+    var core_1, courses_component_1, animalbox_component_1, profilelogin_component_1, header_component_1;
     var AppComponent;
     return {
         setters:[
@@ -25,6 +25,9 @@ System.register(['angular2/core', './courses.component', './animalbox.component'
             },
             function (profilelogin_component_1_1) {
                 profilelogin_component_1 = profilelogin_component_1_1;
+            },
+            function (header_component_1_1) {
+                header_component_1 = header_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -33,8 +36,8 @@ System.register(['angular2/core', './courses.component', './animalbox.component'
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h1>Wikiweb</h1>\n    <div>\n    <animalbox></animalbox>\n    <profilelogin></profilelogin>\n    </div>\n    ",
-                        directives: [courses_component_1.CoursesComponent, animalbox_component_1.AnimalboxComponent, profilelogin_component_1.ProfileLoginComponent]
+                        template: "\n    <header></header>\n    <div>\n    <animalbox></animalbox>\n    <profilelogin></profilelogin>\n    </div>\n    ",
+                        directives: [courses_component_1.CoursesComponent, animalbox_component_1.AnimalboxComponent, profilelogin_component_1.ProfileLoginComponent, header_component_1.HeaderComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);

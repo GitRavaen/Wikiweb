@@ -1,0 +1,114 @@
+body {
+	background-color: #eee;
+	font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+    float: right;
+	margin-right: 5px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width:100px;
+	padding: 15px 0px;
+    text-decoration: none;
+	font-size:25px;
+}
+li a:hover(.title){
+    background-color: #EEE;
+}
+li a:hover:not(.active):not(.title):not(.indent){
+    background-color: #111;
+}
+.indent {
+	width: 70px;	
+}
+hr {
+	border-color: black;
+}
+.title {
+	font-size:35px;
+	float: left;
+	width: 180px;
+	background-color: #4CAF50;
+}
+.active {
+    background-color: #4CAF50;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 25px;
+}
+
+h1, h2, h3 {
+	margin: 5;
+}
+#container {
+	float: center;
+	width: 100%;
+	padding: 20px 0px 10px 0px;
+	margin: auto;
+	background-color: #555;
+}
+
+#navigation{
+	background-color: #444;
+}
+#header {
+	height: 40px;
+	background-color: #333;
+	color: white;
+}
+#feed {
+	width: 26%;
+	padding: 1%;
+	margin: 1% 5px 5px 0px;
+	float: left;
+	background-color: gray;
+}
+#content {
+	width: 69%;
+	background-color: gray;
+	padding: 1%;
+	margin: 1% 0px 5px 0px;
+	clear: Right;
+	float: right;
+}
+#web {
+	width: 100%;
+	background-color: gray;
+	padding: 1%;
+	margin: 20px 0px 0px 0px;
+}
+#footer {
+	font-size: 10px;
+	float: bottom;
+	margin-top: 1%;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+	background-color: gray;
+	clear: both;
+}
+
+
